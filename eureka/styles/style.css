@@ -137,8 +137,8 @@ footer .navbar-brand{
 footer .navbar{
     justify-content: space-around;
     line-height: normal;
-    width: 1206px;
-    margin-left: -20px;
+    width: 100%;
+    /*margin-left: -20px;*/
 }
 footer p {
     margin-bottom: 0px;
