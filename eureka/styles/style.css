@@ -35,6 +35,9 @@ nav {
 .nav-items{
     font-family: 'Playfair Display', serif;
 }
+a{
+    transition: all .55s;
+}
 nav a {
     padding: 0 5px;
     height: auto;
@@ -132,7 +135,9 @@ footer nav {
 }
 footer .navbar-brand{
     font-size: .9rem;
-    padding-bottom: 0px;
+    padding: 0;
+    margin-right: 0;
+
 }
 footer .navbar{
     justify-content: space-around;
