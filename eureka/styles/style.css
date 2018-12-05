@@ -47,8 +47,8 @@ a:hover {
     color: white;
     background-color: #00ADDC;
 }
-#mission .container-how {
-    /*border-radius: 25px;*/
+.container-how {
+    border-radius: 25px;
     padding: 10px 20px;
     border: solid 5px #00ADDC;
     /*height: 270px;*/
@@ -187,9 +187,7 @@ div.greenbox {
     font-size: 1rem;
 }
 
-#mission{
-    /*padding-left: 26px;*/
-}
+
 #about{
     padding-left: 26px;
     padding-top: 25px;
@@ -280,7 +278,7 @@ body{
     width: 100%
 }
 
-#how-title{
+.how-title{
     margin-top: -5px;
 }
 
