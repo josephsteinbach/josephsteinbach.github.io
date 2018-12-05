@@ -104,7 +104,7 @@ font-size: 12pt;
 .how-jumbo{
 
     color: white;
-    height: 550px;
+    /*height: 550px;*/
     padding: 0;
     background-color: transparent;
     margin-bottom: 0;
@@ -247,8 +247,9 @@ body{
 }
 #bg-img {
     background-image: url(../images/main-bg_1-8.png);
-    max-height: 761px;
-    background-position: center;
+    min-height: 761px;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 #logo-tag {
     float: left;
@@ -489,4 +490,7 @@ body{
 
 .nav-link{
     text-align: center;
+}
+.clear {
+    clear: both;
 }
