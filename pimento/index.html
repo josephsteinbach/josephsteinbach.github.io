@@ -12,14 +12,15 @@
     <title>Pimento Jamiacan Kitchen</title>
 </head>
 <body>
-<header class="">
-    <nav class="navbar navbar-expand-lg  container-fluid p-0 pl-2 ">
-    <a class="navbar-brand" href="#"><img src="imgs/logo-final.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+<div class="container-fluid px-0 m-0 w-100">
+    <header class="row ">
+        <nav class="navbar navbar-expand-lg  container-fluid p-0 pl-2 ">
+        <a class="navbar-brand" href="#" id="no-hover"><img src="imgs/logo-final.png" alt=""></a>
+        <button class="navbar-toggler pr-5" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarsExample05">
-        <ul class="navbar-nav  ">
+        </button>
+        <div class="collapse navbar-collapse justify-content-end " id="navbarsExample05">
+        <ul class="navbar-nav text-right pr-5 ">
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -78,12 +79,10 @@
     </div>
   </div>
 </div>
-<div class="about" id="about">
-    <div class="row">
-<div class="col pl-lg-4 ml-lg-5 text-center">
+<div class="about row text-center" id="about">
+<div class="col pl-lg-4 ml-lg-5 pt-4">
     <h2 class="noshadow">Welcome to Authentic Jamaican</h2>
 </div>
-    </div>
     <div class="row">
         <div class=" offset-md-3 col-md-6 col-10 offset-1 text-md-center">
             <p class="rale">
@@ -95,8 +94,8 @@
         </div>
     </div>
 </div>
-<div class="row ">
-        <div class="col-lg-10 offset-lg-1 ">
+<div class="row bg-wht">
+        <div class="col-lg-10 offset-lg-1 pr-0 ">
             <div class="bd-example">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -176,7 +175,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <p>We used Pimento to cater a carribean themed party and it turned out fantastic! The fod was delicious, neatly packed and ready to be served the minute we set it on the table.</p>
+                <p>"We used Pimento to cater a carribean themed party and it turned out fantastic! The fod was delicious, neatly packed and ready to be served the minute we set it on the table."</p>
             </div>
         </div>
     </div>
@@ -188,7 +187,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <p>This place is Jamaican me crazy... because it is the real deal... and there is a reason why it won Food Network's Court Wars!</p>
+                <p>"This place is Jamaican me crazy... because it is the real deal... and there is a reason why it won Food Network's Court Wars!"</p>
             </div>
         </div>
     </div>
@@ -200,7 +199,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <p>The taste was savory, with the chicken, rice, and plantain banana combination, and the MN Nice BBQ sauce added a nice zip with a hint of clove flavor and mild heat. I will surely be ordering again!</p>
+                <p>"The taste was savory, with the chicken, rice, and plantain banana combination, and the MN Nice BBQ sauce added a nice zip with a hint of clove flavor and mild heat. I will surely be ordering again!"</p>
             </div>
         </div>
     </div>
@@ -254,33 +253,35 @@
         </div>
     </div>
 </div>
-<footer>
-    <nav class="navbar navbar-expand-lg  container-fluid p-0 pl-2 ">
-    <a class="navbar-brand" href="#"><img src="imgs/logo-final.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarsExample05">
-        <ul class="navbar-nav  ">
-
-            <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fab fa-instagram"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="fab fa-twitter-square"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
+    <footer>
+    <nav>
+        <div class="row  justify-content-between w-100">
+            <div class=" text-center    col-lg-2 ">
+             <a class="navbar-brand" href="#"><img src="imgs/logo-final.png" alt="" class=""></a>
+            </div>
+                    <div class="  col offset-lg-7 col-lg-1  text-center   py-4 ">
+                        <a class="nav-link " href="#">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+           
+              
+                  <div class="col col-lg-1 text-center  py-4 ">
+                      <a class="nav-link" href="#">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                     </a>
+                  </div>
+              
+                    <div class="col col-lg-1 text-center  py-4 ">
+                        <a class="nav-link" href="#">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                        </a>
+                    </div>
+             
+        </div>  
+    </nav>
 </footer>
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

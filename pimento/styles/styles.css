@@ -5,7 +5,7 @@ nav {
     font-family : HWT Artz, sans-serif;
     font-size : 21px;
     color : #FFFFFF;
-    background-color: rgba(255,6,0,0.84);
+    background-color: #ff0600;
 
 }
 
@@ -14,7 +14,6 @@ nav {
 }
 .navbar-nav {
     padding-right: 20px;
-    margin-top: 55px;
     float: right;
 }
 button.navbar-toggler:focus {
@@ -23,9 +22,20 @@ button.navbar-toggler:focus {
 a {
     color: white;
 }
-a:hover {color: yellow}
+a:hover {color: red;
+    background-color: white;
+    border-radius: 3px;
+    transition:all .4s;
+
+}
+.contact a:hover {
+color: white;
+    background-color:#ff0600 ;
+
+
+}
 .jumbotron {
-    background-color: rgba(255,6,0,0.84);
+    background-color:  #ff0600;
     border-radius: 0;
 }
 body {
@@ -77,6 +87,11 @@ h5  {
 
 
 }
+.carousel a:hover {
+    background-color: transparent;
+
+
+}
 .splash {
     margin-bottom: 200px;
 }
@@ -89,23 +104,24 @@ background-image: url("../imgs/toggler.svg")}
 .about {
     color: black;
     height: 60vh;
+    background-color: white;
 }
 .about p {
     color: black;
 }
 .customers {
-color: black;
+    color: black;
+    background-color: white;
     padding-left: 40px;
     height:50vh;
     padding-top: 4vh;
-    margin-bottom:10vh;
  }
 .customers h2 {
     text-shadow: none;
 }
 .contact{
-    background-color: rgba(255,6,0,0.84);
-    height:40vh;
+    background-color: #ff0600;
+    height:60vh;
 }
 .menu-item {
     border: 1px solid white;
@@ -114,7 +130,7 @@ color: black;
 
 }
 .menu{}
-@media (max-width: 767.98px) {
+@media (max-width: 967.98px) {
     h2 {
         font-size: 36px ;
     }
@@ -122,21 +138,29 @@ color: black;
         font-size: 26px;
     }
 .customers{
-    margin-bottom: 240px;
-}
+    height: 100vh;}
 }
 @media (max-width: 567.98px) {
 
-    .customers{
-        margin-bottom: 240px;
-    }
+
 }
 .bg-color {
-    background-color: rgba(255,6,0,0.84);
+    background-color: #ff0600;
 }
 .bio-img {
     max-width: 200px;
 }
 .blk {
     color: black;
+}
+.bg-wht {
+    background-color: white;
+}
+footer {
+background-size: 140%;
+min-height: 80px;}
+
+ #no-hover:hover{
+    background-color: transparent;
+
 }
