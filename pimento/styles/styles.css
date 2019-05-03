@@ -1,13 +1,20 @@
+@import url("https://use.typekit.net/jdj1kia.css");
 nav {
     background-image: url("../imgs/nav-final.jpg");
     background-repeat: no-repeat;
     min-width: 100vw;
-    font-family : HWT Artz, sans-serif;
-    font-size : 21px;
+    font-family: 'Anton', sans-serif;
+    font-size : 25px;
+font-weight: lighter;
     color : #FFFFFF;
     background-color: #ff0600;
 
 }
+@font-face {
+    font-family: serif;
+    src: url(AbrilFatface-Regular.ttf);
+}
+
 
 .navbar-brand {
     padding: 0;
@@ -40,7 +47,7 @@ color: white;
 }
 body {
     color: white;
-    font-family : HWT Artz, sans-serif;
+    font-family: 'Anton', sans-serif;
     width:100vw;
     overflow-x: hidden;
 
@@ -127,6 +134,7 @@ background-image: url("../imgs/toggler.svg")}
     border: 1px solid white;
     border-radius: 5px;
     margin-bottom:10px;
+    padding: 10px 10px;
 
 }
 .menu{}

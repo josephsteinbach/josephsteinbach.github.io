@@ -279,6 +279,7 @@ body{
 #bg-img {
     background-image: url(../images/start-bg-100.jpg);
     background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 #howitworks {
@@ -446,6 +447,7 @@ body{
     border: 1px solid #fdb913;
     float: right;
     margin-bottom: 20px;
+    margin-right:10px;
 }
 
 #more:hover {
